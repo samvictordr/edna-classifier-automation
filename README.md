@@ -40,7 +40,7 @@ The pipeline follows a series of automated steps to process the raw data:
     chmod +x edna.sh
     ```
 
-## 📈 Output
+## Output
 
 After a successful run, the script will generate several files prefixed with your chosen `<sample-id>`, including:
 * **`<sample-id>_table.qza`**: The final ASV abundance table.
@@ -49,7 +49,7 @@ After a successful run, the script will generate several files prefixed with you
 * **`<sample-id>_treemap.html`**: An interactive treemap visualization.
 * **`<sample-id>_piechart.html`**: An interactive pie-chart visualization.
 
-## 🛠️ Tools Used
+## Tools Used
 
 * **QIIME 2**: The core bioinformatics platform for orchestrating the analysis.
 * **DADA2**: For denoising raw reads and generating high-resolution ASVs.
